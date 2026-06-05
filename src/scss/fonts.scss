@@ -1,0 +1,10 @@
+$Arimo: ('SemiBold', 600),
+        ('Medium', 500);
+
+@each $name, $weight in $Arimo {
+    @font-face {
+        font-family: 'Arimo';
+        src: url('/public/fonts/Arimo-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
