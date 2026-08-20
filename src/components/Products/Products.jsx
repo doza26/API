@@ -1,11 +1,11 @@
 
 import './Products.scss'
-import ProductsItem from "./ProductsItem"
+import ProductsItem from "./ProductsItem.jsx"
 import { useState, useEffect, useMemo } from 'react'
 import axios from 'axios'
-import Loader from '../Loader/loader'
+import Loader from '../Loader/Loader.jsx'
 import { useProduct } from '../../store/useProduct'
-import Pagination from '../Pagination/Pagination'
+import Pagination from '../Pagination/Pagination.jsx'
 
 const Products = () => {
   const [data, setData] = useState(null);

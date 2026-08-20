@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/navbar/Navbar.jsx';
 import './scss/App.scss';
-import Products from './components/Products/Products';
-import ProductDetail from './components/ProductDetail/ProductDetail';
+import Products from './components/Products/Products.jsx';
+import ProductDetail from './components/ProductDetail/ProductDetail.jsx';
 
 
 function App() {

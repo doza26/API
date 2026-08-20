@@ -1,7 +1,7 @@
 import React from 'react'
 import'./Navbar.scss'
-import Search from '../Search/Search'
-import Sort from '../Sort/Sort'
+import Search from '../search/Search.jsx'
+import Sort from '../sort/Sort.jsx'
 
 
 const Navbar = () => {
